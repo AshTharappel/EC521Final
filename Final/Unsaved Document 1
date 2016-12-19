@@ -1,0 +1,17 @@
+useful commands
+	Get members in group
+		grep 'group-name-here' /etc/group
+
+
+	script to run numbers in a file
+
+
+#!/bin/bash
+
+for i in {0..100}
+	do
+		echo $i | ./3runMe
+		echo $i
+	done
+
+

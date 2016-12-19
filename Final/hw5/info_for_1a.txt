@@ -1,0 +1,7 @@
+segmentation fault at 34
+saved rip: 0x32ef81ed1d
+rip at: 0x7fffffffdfd8
+
+24 + address want in rip
+
+
