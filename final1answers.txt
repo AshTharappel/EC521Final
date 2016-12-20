@@ -20,7 +20,7 @@
 			data.txt - The psychology of morphology is nearly dogmatic in its economics.
 				used: ran script to try different numbers 0-100
 		bluefoggy 
-			
+			The impressionism of mobility is rather open-minded in its empiricism.
 
 
 	Noble
@@ -31,7 +31,8 @@
 			data.txt - The mobility of polymorphism is in fact quite open-minded in its anthropology.
 				used:  echo 0000000000 | ./2runMe
 		cookbee
-			
+			data.txt - The smart trader nowadays will plan to amortize senior-rated transfers.
+
 		ballsnazzy
 			data.txt - We will steadfastly and unceasingly resell wireless solutions for today's capital-based market leaders.
 				used: cat data file as lab user. 
